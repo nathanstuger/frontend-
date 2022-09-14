@@ -17,12 +17,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Auteur:
   Nathan Stuger 
- 
+
   #### Je startniveau:
-  hier je startniveau: Blauw
+  hier je startniveau Blauw
 
   #### Je focus:
-  hier je focus:responsive
+  hier je focus: Responsive 
  
 </details>
 
@@ -30,21 +30,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## ttps://stockx.com/air-jordan-1-retro-high-og-stage-haze
+## Je website
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://stockx.com/air-jordan-1-retro-high-og-stage-haze
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Air jordan 1   
+  <img src="readme-images/airjordan1.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Air Jordan 1 Retro high OG Bleached Coral  
+  <img src="readme-images/airjordan1retrohighbleachedcoral.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
