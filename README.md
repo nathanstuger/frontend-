@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Nathan Stuger 
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  hier je startniveau Blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  hier je focus: Responsive 
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://stockx.com/air-jordan-1-retro-high-og-stage-haze
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Air jordan 1   
-  <img src="readme-images/airjordan1.png" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Air Jordan 1 Retro high OG Bleached Coral  
-  <img src="readme-images/airjordan1retrohighbleachedcoral.png" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,24 +56,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  De website heeft een duidelijke structuur, het lijkt in eerste oog opslag een hele normale website.
+  Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Tijdens mijn test met de screenreader zag ik dat een paar van de gegeven namen soms type fouten hadden. Op sommige plekken kwam namelijk een willekeurig uitroepteken naar voren. Verder was de indelen van de site goed uitgevoerd. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
-  Hier heb ik niet iets ongewoons kunnen constateren.
+  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
-  
-  Dit was een hele waardevolle test, het was erg confronterend om te ervaren hoe de ervaring voor gebruikers met spasmes kan zijn. Bij een site waar er kleine buttons en vlakken zijn kan het erg moeilijk zijn om niet verkeerd te klikken. Dit was deels het geval voor de stockx site.
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Tijdens dit onderzoek kwam ik erachter dat de site erg goed zit als het gaat om mensen die kleurenblind zijn. Er zijn namelijk niet veel kleuren op de website het grootste deel van de site bestaat uit grijs en wit. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -85,10 +91,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
