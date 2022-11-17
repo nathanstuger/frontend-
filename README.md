@@ -16,14 +16,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Nathan Stuger
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  hier je startniveau Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
- 
+  hier je focus: Responsive
+
 </details>
 
 
@@ -36,16 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://stockx.com/air-jordan-1-retro-high-og-stage-haze
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  #### Screenshot(s) van de eerste pagina (small screen):
+  Air jordan 1   
+  <img src="readme-images/airjordan1.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  Air Jordan 1 Retro high OG Bleached Coral  
+  <img src="readme-images/airjordan1retrohighbleachedcoral.png" width="375px" alt="omschrijving van de pagina">
+
 </details>
 
 
@@ -59,12 +59,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Er zijn een aantal elementen met een te lange of niet relevante naam.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Muis en Toetsenbord 
+  #### Muis en Toetsenbord
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -72,11 +72,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website is vrij eenvoudig in elkaar gezet hierdoor kan je best goed navigeren.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### Visueel (brillen, contrast, kleurenblind, dark/light).
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -90,13 +91,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -185,7 +186,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Muis en Toetsenbord 
+  #### Muis en Toetsenbord
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -197,7 +198,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### Visueel (brillen, contrast, kleurenblind, dark/light).
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -250,7 +251,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
+  ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
