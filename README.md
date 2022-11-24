@@ -218,9 +218,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  
  Er blijven wel bepaalde elementen die ik nog steeds lastig vind:
  
- Eerste punt: De afstand tussen de regels tekst binnen het schoenen kader, ik zou deze graag willen verkleinen op de juiste manier.
+ Eerste punt: De afstand tussen de regels tekst binnen het schoenen kader, ik zou deze graag willen verkleinen op de juiste manier. (waarschijnlijk met margin of padding maar kan dit ook anders?)
  
- Het tweede punt: het gebruiken van de mediaQ, Ik heb door hoe het werk en heb ook een hoop aangepast. Ik heb alleen het gevoel dat dit veel efficienter en overzichtelijker kan. 
+ Het tweede punt: het gebruiken van de mediaQ, Ik heb door hoe het werkt en heb ook een hoop aangepast. Ik heb alleen het gevoel dat dit veel efficienter en overzichtelijker kan. 
  
  Een voorbeeld, het menu hoort te veranderen naar een hamburger menu vanaf een bepaalde grote, is het dan de bedoeling om de delen van de nav die niet terug komen op "display none" te zetten etc.
  
@@ -231,10 +231,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Ik kwam er tijdens dit gesprek achter dat ik al goed opweg was maar er moest inderdaad nog een hoop gebeuren. We hebben deze meeting vooral gehad over de schoenen grids en hoe ik deze het best kon aanpassen. 
+  
+  Daarnaast had ik wat vragen over displat flex en de bepaalde volgorde van elementen. 
 
 </details>
 
@@ -248,18 +247,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/navblijmee.jpg" width="375px" alt="uitomst opdracht 1">
+  
+  . 
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatjes
-
+  Ik heb een hoop gemaakt waar ik ook echt trots op ben, het zullen voor expers niet hele ingewikkelde stukken code zijn maar ik had echt een hele tijd niets met html gedaan. In de tussen tijd volg ik een minor waarbij ik ook moest coderen, deze manier van lesgeven heeft echt top gewerkt omdat je hierdoor constant met elkaar ingesprek gaat over elkaars code.
+  
+  Waar ik nu veel beter in ben geworden is het schrijven van code zonder id's en classes te gebruiken. Er zijn hier veel verschillende opties voor en ik was daar hiervoor totaal niet van op de hoogte. Hoewel ik niet alles uit mijn hoofd ken zijn er niet meer heel veel regels in CSS waar ik van zou schrikken. Op verschillende momenten in de klas heb ik gedacht "hoe kunnen andere nou zo snel op antwoorden komen als deze worden gevraagd" Ik zou nu heel anders in deze lessen zitten!
+  
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
+  Dit was best moelijk voor mij er zijn namlijk een aantal dingen waar ik gewoon niet te vreden over ben. Als eerst wil ik beginnen met de tweede pagina. Pagina 1 heeft echt 80% van mijn aandacht gekost waardoor de tweede pagina niet zo ver is als ik deze graag had willen zien. Hier baal ik van omdat deze pagina juist invoudiger is om te maken. Ik had mijn tijd vanaf het begin dus beter moeten verdelen. Dit is het grootste deel waar ik niet blij mee ben, daarnaast zijn er nog kleine details waar ik graag tijd aan het willen besteden om echt de puntjes op de i te zetten.
+  
+  Als ik dit vak ook klassiekaal had kunnen meemaken weet ik zeker dat ik veel minder tijd had besteed in het zoeken naar elementen en manieren om deze te gerbuiken. 
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -274,8 +280,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1.Dit was een erg handige manier om meer te leren over grid of om te kijken waarom iets niet werkt: 
+  Link:https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties 
+  
+  2.Net zoals de vorige bron heb ik super veel gehad aan deze pagina: 
+  Link:https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  
+  3.Ik had mijn icons eerst toegeveoegd door een google icon link, ik kreeg als advies om deze te veranderen in png of svg afbeeldingen ik was niet helemaal hoe dit moest daar was deze link perfect voor  : 
+  Link:https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+  
+  
+
 
 </details>

@@ -12,6 +12,7 @@ summary {
     cursor: pointer;
 }
 
+/*Ik heb dit font gekozen omdat het goed overeen komt met de stijl van de orginele website*/
 
 @font-face {
     font-family: 'robotoregular';
@@ -22,29 +23,19 @@ summary {
 }
 
 
-
-
-
-/*********************/
 /* CUSTOM PROPERTIES */
-/*********************/
-:root {
-    /* startje */
+
+    :root {
+
     --color-text: #111;
     --color-background: #eee;
+    --color-buttons:#005F27;
+    --color-hovertext:#005F27;
+    --color-hoverbuttons:#202020;
 }
 
 
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
-body {
+    body {
     color: var(--color-text);
     background-color: white;
     font-family: 'robotoregular', Arial, sans-serif;
@@ -53,15 +44,10 @@ body {
 
 }
 
-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-
-}
+/*Vanaf dit punt begint het stijlen van het navigatie menu*/
 
 
-nav ul {
+    nav > ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -69,162 +55,296 @@ nav ul {
     list-style: none;
     padding-top: 1em;
     padding-bottom: 1em;
+}
 
 
+    nav > ul:first-of-type:first-of-type li:nth-of-type(2) {
+    font-size: 2.5em;
+}
+
+
+    nav > ul:first-of-type:first-of-type li:nth-of-type(9) {
+    background-image: url(../images/bell.svg);
+    background-size: 1.3em;
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+}
+
+
+    nav > ul:first-of-type:first-of-type li:nth-of-type(9) > a {
+    color: transparent;
+    border: none;
 
 }
 
 
-nav ul li:first-child {
-    font-size: 2.5em;
+    nav > ul:first-of-type input[type=text] {
+    display: grid;
+    width: 40em;
+    height: 3.5em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-image: url("../images/vergrootglas.svg");
+    background-size: 2em;
+    border-style: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    border: solid 0.1em grey;
+    border-radius: 0.3em;
+    padding-left: 3em;
+    background-color: #FFFCFC ;
+}
+
+/*dit is de tekst in de searchbar*/
+    ::-webkit-input-placeholder {
+    
     color: black;
 
 }
 
-
-
-nav ul input[type=text] {
-    width: 40em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-}
-
-nav img {
+    nav img {
     width: 3.5em;
 }
 
-
-
-nav button {
-    padding: 0.5em 2em;
-    text-transform: capitalize;
+    nav > ul:first-of-type li:nth-of-type(1),
+    nav > ul:first-of-type li:nth-of-type(12) {
+    display: none;
 }
 
-
-nav button:nth-of-type(2) {
-    background-color: black;
+    nav > ul:first-of-type li:nth-of-type(11) button {
+    background-color:#343434;
     color: white;
 
 }
 
-a {
+    nav > ul:first-of-type li button {
+    padding: 0.2em 1em 0.2em 1em;
+    
+    font-size: 1.2em;
+}
+
+
+    header {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    gap: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: solid 0.1em #F3F3F3 ;
+}
+
+
+
+
+/* MOVILE NAV deze staat hier op display none omdat je niet wilt dat dit menu zichtbaar is op de desktop versie*/
+
+    nav > ul:last-of-type {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*Dit deel gaat over de stijling van de eerste section */
+
+    section:first-of-type {
+    background-color: #F6F6F6;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 2em 1.6em;
+    margin-top: 1em; 
+    
+
+}
+
+    a {
     text-decoration: none;
     color: black;
 
 }
 
 
-
-section:first-of-type {
-    display: grid;
-    grid-template-columns: 10px 100x;
-    grid-template-rows: 75px 20px 60px;
-    background-color: #F6F6F6;
-    margin-left: 5em;
-    margin-right: 5em;
-
-}
-
-section h1 {
+    section > h1 {
     font-size: 2em;
-    padding-left: 1.6em;
+    font-weight: 100;
     text-transform: capitalize;
-
+    margin: 0;
 }
 
-
-
-section p {
-
+    section > p {
+    margin: 0;
+    margin-top: 0.75em;
     font-size: 1.2em;
-    padding-left: 2.8em;
-    padding-right: 15em;
-    padding-bottom: 2em;
-
+    line-height: 1.35em;
+    width: 85%;
 }
 
 
-section:nth-of-type(2) {
+
+
+    section:nth-of-type(1) div > button {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*Vanaf dit deel begint de stijling van het schoenen grid*/
+
+
+
+    section img {
+    width: 10em;
+}
+
+
+    section:nth-of-type(2) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 4em;
-
-
 }
 
-section ul {
+
+    section ul {
     list-style: none;
     text-decoration: none;
     margin-top: 5em;
-
-
 }
 
 
-section img {
-    width: 10em;
-
-
-
-}
-
-
-section h2 {
-    font-size: 1em;
-
-
-
-
-}
-
-
-
-section ul p {
+    section ul p {
     font-size: 0.5em;
-
-
-
-
 }
 
 
-section ul:nth-of-type(1) {
-    font-size: 1, 2em;
+/* GRID HOME */
+    section ul:nth-of-type(1) {
+    font-size: 1em;
     margin-top: -0.1em;
-    margin-left: 3.8em;
-    line-height: 2;
+    /* margin-left: 3.8em; */
+    line-height: 2em;
     text-transform: uppercase;
     transition: color .3s ease-in-out;
     font-family: 'robotoregular', Arial, sans-serif;
 
 }
 
-
-
-section a:hover {
-    color: darkolivegreen;
-
-
+    section ul:nth-of-type(1) a:hover{
+    color: green;
+    
 }
 
+    section ul:nth-of-type(1) li:nth-of-type(1) > a {
+    color: green;
+}
 
-section button {
+    section ul:nth-of-type(1) li:nth-of-type(21) {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+    section ul:nth-of-type(1) li:nth-of-type(27) {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+    section ul:nth-of-type(1) li:nth-of-type(28) {
     display: grid;
-    width: 15em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2em;
-    border: solid 0.02em black;
-    background-color: white;
-    margin-bottom: 1em;
+    gap: 0.65em;
+    padding-right: 2em;
 
 
+}
+
+    section ul:nth-of-type(1) li:nth-of-type(28) button {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 0.75em 0;
+    border-radius: 0;
+    border: 1px solid #A1A5A4;
+    background-color: transparent;
+    transition: 250ms;
+}
+    section ul:nth-of-type(1) li:nth-of-type(28) button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* GRID HOME */
+    section:nth-of-type(2) {
+    max-width: 1170px;
+    margin: 3.5em auto 0 auto;
+}
+    section:nth-of-type(2) ul:nth-of-type(2) {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    place-content: flex-start;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li {
+    border: 1px solid #E2E8F0;
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li > a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.65em;
+  
+    
+
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li > a img {
+    align-self: center;
+    
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li > a h3 {
+    font-weight: 400;
+    font-size: 1em;
+     
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li > a p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #5F5F5F;
+     
+}
+    section:nth-of-type(2) ul:nth-of-type(2) > li > a strong {
+    font-size: 1.5em;
+    margin-top: 0.25em;
 }
 
 
 
 
 
-footer container {
+/*Hieronder begint de stijling van de footer*/
+
+
+
+    footer container {
     display: flex;
     align-items: center;
     align-content: center;
@@ -232,15 +352,22 @@ footer container {
     width: 90%;
     color: white;
     line-height: 1.8em;
-    
+
 
 
 
 }
+    section:nth-of-type(3){
+    display: grid;
+    text-align: center;
+    padding-top: 2em; 
+   
+}
 
 
 
-footer {
+
+    footer {
 
     background-color: #212121;
     justify-content: center;
@@ -250,7 +377,7 @@ footer {
 
 }
 
-footer h3 {
+    footer h4 {
     color: white;
     padding-top: 1.2em;
     padding-left: 1em;
@@ -261,7 +388,7 @@ footer h3 {
 
 }
 
-footer li {
+    footer li {
     list-style: none;
     align-content: center;
 
@@ -269,7 +396,7 @@ footer li {
 
 
 
-footer ul:nth-last-of-type(7) {
+    footer ul:nth-last-of-type(7) {
     display: flex;
     align-items: center;
     align-content: center;
@@ -277,7 +404,7 @@ footer ul:nth-last-of-type(7) {
 
 }
 
-footer container:nth-of-type(2) ul {
+    footer container:nth-of-type(2) ul {
     display: flex;
     flex-direction: row;
     background-color: red;
@@ -292,7 +419,7 @@ footer container:nth-of-type(2) ul {
 
 }
 
-footer button {
+    footer button {
     padding: 0.5em 2em;
     border-color: white;
     background-color: transparent;
@@ -302,7 +429,7 @@ footer button {
 
 }
 
-footer article {
+    footer article {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -316,7 +443,7 @@ footer article {
 
 }
 
-footer article ul {
+    footer article ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -328,7 +455,7 @@ footer article ul {
 }
 
 
-footer article:nth-of-type(2) ul {
+    footer article:nth-of-type(2) ul {
     display: flex;
     align-items: flex-start;
     color: white;
@@ -340,9 +467,8 @@ footer article:nth-of-type(2) ul {
 
 }
 
-footer article:nth-of-type(2) li {
+    footer article:nth-of-type(2) li {
     padding-bottom: 1em;
-
 
 }
 
@@ -358,131 +484,339 @@ footer article:nth-of-type(2) li {
 
 /* Viewports between 320px and 480px wide */
 @media (min-width: 20em) and (max-width: 60em) {
-    body {
-        background-color: green;
+    body {}
+
+    header {
+        padding: 0;
+        gap: 0;
+        border-bottom: 1px solid #E2E8F0;
+    }
+    header nav > ul {
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+    header nav > ul:first-of-type li:first-of-type button,
+    header nav > ul:first-of-type li:last-of-type button {
+        background-position: center;
+        background-size: 2em;
+    }
+    header nav > ul:first-of-type li:last-of-type button {
+        background-size: 1.5em;
+    }
+    header nav > ul:first-of-type:first-of-type li:nth-of-type(2) {
+        display: grid;
+        place-items: center;
+        padding: 0.35em 0;
+    }
+    header nav img {
+        width: 2.5em;
     }
 
+
+
+    /* Navigatie menu van de mobiele versie*/
+    nav > ul:first-of-type li {
+        display: none;
+    }
+
+    nav > ul:first-of-type li:nth-of-type(1),
+    nav > ul:first-of-type li:nth-of-type(2),
+    nav > ul:first-of-type li:nth-of-type(12) {
+        display: block;
+    }
+
+    /* stijling voor het hamburger menu */
+    nav > ul:first-of-type li:nth-of-type(1) button {
+        color: transparent;
+        padding: 0.45em 0;
+        background-image: url("../images/hammenu.svg");
+        border-style: none;
+        background-color: white;
+        background-size: 2.5em;
+        background-position: 10% 80%;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+    /* stijling voor het vergroot glas */
+
+    nav > ul:first-of-type li:nth-of-type(12) button {
+        color: transparent;
+        padding: 0.45em 0;
+        background-image: url("../images/vergrootglas.svg");
+        border-style: none;
+        background-color: white;
+        background-size: 2em;
+        background-position: 10% 80%;
+        background-repeat: no-repeat;
+
+    }
+    
+
+    /* MOVILE NAV */
+    nav > ul:last-of-type {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: white;
+        transform: translateX(-100%);
+        transition: 350ms;
+    }
+
+    
+    nav > ul:last-of-type.active {
+        transform: translateX(0);
+    }
+
+    nav > ul:last-of-type > li > ul {
+        list-style: none;
+        margin: 0;
+        padding: 1em;
+    }
+
+    nav > ul:last-of-type > li:first-of-type > ul {
+        display: flex;
+    }
+
+    nav > ul:last-of-type > li:first-of-type > ul:first-of-type {
+        border-bottom: 1px solid black;
+    }
+
+    nav > ul:last-of-type > li:first-of-type > ul li:nth-of-type(1) {
+        position: absolute;
+    }
+
+    nav > ul:last-of-type > li:first-of-type > ul li:nth-of-type(2) {
+        flex: 1;
+        text-align: center;
+    }
+
+    nav > ul:last-of-type > li > ul > li > a {
+        display: flex;
+        margin: 0.25em 0;
+        padding: 0.45em 0;
+        background-image: url("../images/chevron.png");
+        background-size: 1em;
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        font-size: 1.2em;
+    }
+
+
+    nav > ul:last-of-type > li > ul > li > img {
+        width: 8em;
+
+    }
+
+    /* De stijling voor het kruisje om het hamburger menu te sluiten*/
+
+    nav > ul:last-of-type > li > ul > li > button {
+        color: transparent;
+        background-image: url("../images/cross.svg");
+        border-style: none;
+        background-color: white;
+        background-size: 2em;
+        background-position: 10% 80%;
+        background-repeat: no-repeat;
+        padding-top: 1em;
+
+
+    }
+    
+    
+    
+    section:nth-of-type(2) > ul:first-of-type.hidden {
+        display: none;
+    }
+
+
+
+    section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-of-type(2) button {
+        width: auto;
+    }
+
+
+
+    
+    
+/*  Binnen de orginele site is er geen wit ruimte mee tussen de eerste sectie. Dat is waarom ik hier de padding en margin op 0 heb gezet */
+    
+    section:first-of-type {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0em;
+    }
+    section:first-of-type h1,
+    section:first-of-type p {
+        padding: 2rem 1rem;
+    }
+    section:first-of-type h1 {
+        padding-bottom: 0;
+        font-size: 1.25rem;
+    }
+    section:first-of-type p {
+        padding-top: 0;
+    }
+    
     section p {
-
         font-size: 0.8em;
-        padding-left: 2.8em;
-        padding-right: 15em;
-        padding-bottom: 2em;
-
-    }
-
-    nav ul input[type=text] {
-        width: 10em;
-        padding-top: 0.8em;
-        10%;
-    }
+}
 
 
+/*Stijling filter knoppen*/
+    section:first-of-type > div {
+        background-color: white;
+        padding: 1em;
+}
+    
+        section:nth-of-type(1) div {
+        display: flex;
+        gap: 1em;
+    } 
+    
+    section:nth-of-type(1) div > button {
+        display: block;
+        flex: 1;
+        align-items: flex-start;
+        background-color: white;
+        padding: 1em;
+        text-align: left;
+        border: 0.1em solid lightgrey;
+}
 
+/*Stijling voor de knoppen in het hamburger menu*/
+    
+    nav > ul:last-of-type > li:last-of-type button {
+        flex: 1;
+        width: 100%;
+        align-items: flex-start;
+        padding: 1em;
+        font-size: 1.2em;
+        border-radius: 0.3em;
+        border: none;
+}
+    
+    
+    nav > ul:last-of-type > li:last-of-type {
+        display: flex;
+         gap: 1em;
+}
 
+    
+    nav > ul:last-of-type > li:last-of-type button:last-of-type {
+        background-color: green;
+        color: white;
+}   
+    
+    section:nth-of-type(2) ul:nth-of-type(2) {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*ik wou hier nog de repeat optie toevoegen zodat de er automatisch een colum bij komt afhankelijk van het formaat*/
+}
 
-
-
-
-
-
-
+    
+/*Vanaf dit punt begint de stijling voor de footer*/
 
     footer container {
-        display: flex;
-        color: white;
-        flex-direction: column;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: baseline;
 
-
-    }
-
+}
 
 
     footer {
-        background-color: #212121;
-        align-content: center;
+    background-color: #212121;
+    align-content: center;
 
-
-
-    }
+}
 
     footer h3 {
-        color: white;
+    color: white;
 
-    }
+}
 
     footer li {
-        list-style: none;
-        align-content: center;
+    list-style: none;
+    align-content: center;
 
-
-
-    }
+}
 
 
 
     footer ul:nth-last-of-type(7) {
-        display: flex;
+    display: flex;
 
-
-
-
-    }
+}
 
     footer container:nth-of-type(2) ul {
-        display: flex;
-        flex-direction: column;
-        background-color: red;
-        align-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-content: center;
 
-
-
-
-
-
-
-    }
+}
 
     footer button {
-        padding: 0.5em 2em;
-        border-color: white;
-        background-color: transparent;
-        font-size: 1.3em;
-        color: white;
+    padding: 0.5em 2em;
+    border-color: white;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: white;
 
 
-    }
+}
 
     footer article {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
 
 
-
-    }
+}
 
     footer article ul {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        list-style: none;
-        color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-size: 0.6em;
 
 
-    }
+}
 
     footer article li {
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
-    }
+}
 
     article:nth-of-type(2) {
-        background-color: black;
-        font-size: 0.8em;
-        flex-direction: column;
-        padding-bottom: 5em;
-    }
+    background-color: black;
+    font-size: 0.8em;
+    flex-direction: column;
+    padding-bottom: 5em;
+}
+
+}
+

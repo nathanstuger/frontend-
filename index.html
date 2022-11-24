@@ -10,15 +10,17 @@
 
     <link href="styles/style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
-    
-
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
+                <li>
+                    <button>
+                        menu icon
+                    </button>
+                </li>
                 <li> <img src="images/logodef.png"></li>
                 <li><input type="text" placeholder="Search for brands, colors, etc."></li>
                 <li><a herf="">Browse</a></li>
@@ -26,11 +28,68 @@
                 <li><a herf="">About</a></li>
                 <li><a herf="">Help</a></li>
                 <li><a herf="">Sell</a></li>
-                <li> <span class="material-symbols-outlined">
-                        notifications
-                    </span></li>
-                <button>Login</button>
-                <button>Sign Up</button>
+                <li><a herf="">Sell</a></li>
+                <li>
+                    <button>Login</button>
+                </li>
+                <li>
+                    <button>Sign Up</button>
+                </li>
+                <li>
+                    <button>
+                        zoek icon
+                    </button>
+                </li>
+            </ul>
+
+            <!-- MOBILE NAV / vanaf dit punt begint de mobiele navigatie-->
+            
+            <ul>
+                <li>
+                    <ul>
+                        <li>
+                            <button> CLOSE</button>
+                        </li>
+                        <li>
+                            <img src="images/logodef.png">
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <a href="#">Browse</a>
+                        </li>
+                        <li>
+                            <a href="#">Sneakers</a>
+                        </li>
+                        <li>
+                            <a href="#">Shoes</a>
+                        </li>
+                        <li>
+                            <a href="#">Apparel</a>
+                        </li>
+                        <li>
+                            <a href="#">Electronics</a>
+                        </li>
+                        <li>
+                            <a href="#">Trading Cards</a>
+                        </li>
+                        <li>
+                            <a href="#">Collectibles</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessories</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button>Log in</button>
+                    <button>Sign Up</button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -38,8 +97,14 @@
         <section>
             <h1>sneakers</h1>
             <p>Every sneaker you want is always available and verified by StockX. Buy and sell new sneakers & shoes from Air Jordan, adidas, Nike, Yeezy and more!</p>
+<!--ik heb hier divjes gebruikt omdat deze geen semantische waarde hebben.-->
+            <div>
+                <button>Filter: 1</button>
+                <button>Sort By: Featured</button>
+            </div>
         </section>
 
+<!--Dit is de sectie met het filter en de rijenschoenen-->
         <section>
             <ul>
                 <li><a href="#">Sneakers</a></li>
@@ -62,300 +127,556 @@
                 <li><a href="#">Collections</a></li>
                 <li><a href="#">Luxury brands</a></li>
                 <li><a href="#">Other Brands</a></li>
-            </ul>
+                <li><a href="#">Size type</a>
 
-            <ul>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-              <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
+                </li>
+                <li>
+                    <input type="checkbox" name="source" value="Men">
+                    <label for="sizetype">Men</label>
+                </li>
+                <input type="checkbox" name="source" value="Men">
+                <label for="size">Woman</label>
+                <li>
+                    <input type="checkbox" name="source" value="Men">
+                    <label for="sizetype">child</label>
+
+                </li>
+                <li>
+                    <input type="checkbox" name="source" value="Men">
+                    <label for="sizetype">Pre school</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="source" value="Men">
+                    <label for="sizetype">Infant</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="source" value="Men">
+                    <label for="sizetype">Todler</label>
+                </li>
+                <li><a href="#">Sizes</a>
+                <li><button>1</button>
+                    <button>1.5</button>
+                    <button>2</button>
+                    <button>2.5</button>
+                    <button>3</button>
+                    <button>3.5</button>
+                    <button>4</button>
+                    <button>4.5</button>
+                    <button>5</button>
+                    <button>5.5</button>
+                    <button>6</button>
+                    <button>6.5</button>
+                </li>
+
+
+                <li />
 
             </ul>
 
             <ul>
-              <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-              <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-            </ul>
-            <ul>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-              <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-            </ul>
-            <ul>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-              <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-                <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
-               <button>
-                    <li><img src="images/product1.png">Jordan 1 Retro High OG
-                        Chicago Lost and Found
-                    <p>lowest ask</p>
-                    <h2>€359</h2>
-                    </li>
-                </button>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
+                 <li>
+                    <a href="detail.html">
+                        <img src="images/product1.png" alt="Jordan 1 Retro High OG Chicago Lost and Found">
+                        <h3>Jordan 1 Retro High OG Chicago Lost and Found</h3>
+                        <p>Lowest Ask</p>
+                        <strong>€305</strong>
+                    </a>
+                </li>
             </ul>
 
 
+
+
+            <!-- eerste versie (aangepaste) versie van de schoenen lijst
+Ik had een de button voor de <li> geplaatst hierdoor. De Li moet na de Ul komen. 
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+
+            </ul>
+
+            <ul>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+            </ul>
+            <ul class="colum3">
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+            </ul>
+            <ul class="colum4">
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+                <button>
+                    <li><img src="images/product1.png">
+                        <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                        <p>lowest ask</p>
+                        <h3>€359</h3>
+                    </li>
+                </button>
+            </ul> -->
+
+
+        </section>
+        
+<!--        De sectie zijn de blokjes om naar verschillende pagina's te gaan-->
+        <section> 
+            <ul>
+                <li><button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                </li>
+            </ul> 
         </section>
 
 
@@ -363,7 +684,7 @@
         <script defer src="scripts/script.js"></script>
     </main>
     <footer>
-        <h3>StockX. Access the Now.</h3>
+        <h4>StockX. Access the Now.</h4>
         <container>
             <ul>Air jordan
                 <li><a herf=""></a>Air Jordan 1</li>
@@ -459,7 +780,7 @@
                     CONTACT |
                     PRODUCT SUGGESTION |
                     PRESS |
-                    COOKIE SETTINGS 
+                    COOKIE SETTINGS
 
                 </li>
 
