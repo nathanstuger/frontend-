@@ -28,10 +28,13 @@ summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-    /* startje */
+  :root {
+
     --color-text: #111;
     --color-background: #eee;
+    --color-buttons:#005F27;
+    --color-hovertext:#005F27;
+    --color-hoverbuttons:#202020;
 }
 
 
@@ -42,23 +45,19 @@ summary {
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
 
 body {
     color: var(--color-text);
     background-color: white;
     font-family: 'robotoregular', Arial, sans-serif;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
 
 }
 
-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 
-}
+
+/*Vanaf dit punt begint de stijling van het navigatie menu*/
 
 
 nav ul {
@@ -90,19 +89,23 @@ nav > ul:last-of-type {
 
 
 
+main{
+    margin
+}
+/*Een klein deel code voor een paar aanpassingen aan de header*/
 
-
-
-
-section p:nth-of-type(2) {
-    color: black;
-    background-color: gainsboro;
-
+header {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    gap: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: solid 0.1em #F3F3F3 ;
 }
 
-section ul img {
-    width: 30em;
-}
 
 section:first-of-type {
     display: grid;
@@ -157,6 +160,17 @@ nav img {
 
 
 
+section p:nth-of-type(2) {
+    color: black;
+    background-color: gainsboro;
+
+}
+
+section ul img {
+    width: 30em;
+}
+
+
 nav button {
     padding: 0.5em 2em;
     text-transform: capitalize;
@@ -175,7 +189,7 @@ a {
 
 }
 
-
+/*de code hieronder gaat over de stijl van de eerste sectie in de code, ik deze heeft twee delen. Hier was ik nog bezig met het afmaken van het tweede deel.*/
 
 
 section ul {
@@ -191,11 +205,15 @@ section ul {
 
 
 section p:nth-of-type(1) {
-
+    font-size: 1.2em;
+    color: dimgray;
     align-content: left;
 
 
 }
+
+
+/*Dit is het deel dat ik nog graag had willen afmaken*/
 
 section li:nth-of-type(2){
     display: grid;
@@ -234,10 +252,6 @@ section li article {
 section li article > button {
    padding:0.5em 2em 0.5em 2em;
     font-size: 1.2em;
-    
-
-    
-    
 }
 
 
@@ -258,7 +272,7 @@ section li:nth-of-type(2) p {
 }
 
 
-
+/*Dit is het tweede article over de product Details*/
 
 main article:nth-of-type(2) {
     display: grid;
@@ -273,7 +287,7 @@ main article:nth-of-type(2) li {
 
 }
 
-
+/*Dit is het derde article deze heb ik gemaakt met grid*/
 
 main article:nth-of-type(3) {
     display: grid;
@@ -311,28 +325,53 @@ main article:nth-of-type(4) ul {
 }
 
 
+h2{
+    margin-left: 1.5em;
+}
 
-
-
+/*Ik heb hier de carousel neergezet er zijn hier ook een aantal dingen waar ik nog meebezig was en die ik graag zou willen aanpassen*/
 
 main article:nth-of-type(1) > ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100vw;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
     white-space: nowrap; 
-}
-article:nth-of-type(1) button {
-    /* width: 10vw; */
-    /* height: 18vw; */
     list-style: none;
-    background-color: white;
-    margin-bottom: 2em;
+     place-content: flex-start;
+    align-self: center;
+    grid-template-rows: min-content;
+    gap:2em;
+    
+    
+}
 
-    width: 200px;
+main article:nth-of-type(1) > ul >li {
+    border: 0.1em solid lightgrey;
+    padding: 0.65em;
+    
+}
 
+
+main article:nth-of-type(1) > ul > li > a img {
+  height: auto;
+  max-width: 60%;
+    
+ 
+}
+
+main article:nth-of-type(1) > ul > li > a h3 {
+ font-weight: 400;
+font-size: 0.8em;
+ 
+}
+
+
+main article:nth-of-type(1) > ul > li {
+display:flex;
+    
+   
 }
 
 
@@ -342,7 +381,7 @@ article img {
 }
 
 
-
+/*Vanaf hier begint de footer*/
 
 footer {
 
@@ -369,10 +408,6 @@ footer h3 {
     padding-top: 1.2em;
     padding-left: 1em;
     font-size: 2.2em;
-
-
-
-
 }
 
 footer li {
@@ -381,14 +416,10 @@ footer li {
 
 }
 
-
-
 footer ul:nth-last-of-type(7) {
     display: flex;
     align-items: center;
     align-content: center;
-
-
 }
 
 footer container:nth-of-type(2) ul {
@@ -398,13 +429,8 @@ footer container:nth-of-type(2) ul {
     align-content: center;
     justify-content: center;
     justify-content: space-evenly;
-
-
-
-
-
-
 }
+
 
 footer ul div {
     padding: 0.5em 2em;
@@ -413,10 +439,8 @@ footer ul div {
     background-color: black;
     font-size: 1.3em;
     color: white;
-
-
-
 }
+
 
 footer article {
     display: flex;
@@ -458,19 +482,9 @@ footer article:nth-of-type(2) ul {
 
 footer article:nth-of-type(2) li {
     padding-bottom: 1em;
-
-
 }
 
-
-
-
-
-
-
-
-
-
+/*hier was ik ook al begonnen om mijn MQ te maken voor deze website, ik zou voor veel van de grid secties het font aanpassen zodat deze in de beschrijving past*/
 
 /* Viewports between 320px and 480px wide */
 @media (min-width: 20em) and (max-width: 60em) {
@@ -492,11 +506,6 @@ footer article:nth-of-type(2) li {
         padding-top: 0.8em;
         10%;
     }
-
-
-
-
-
 
 
 
@@ -551,11 +560,6 @@ footer article:nth-of-type(2) li {
         align-content: center;
 
 
-
-
-
-
-
     }
 
     footer article ul li button {
@@ -573,10 +577,7 @@ footer article:nth-of-type(2) li {
         flex-direction: row;
         align-items: center;
         align-content: center;
-
-
-
-    }
+}
 
     footer article ul {
         display: flex;
@@ -585,9 +586,7 @@ footer article:nth-of-type(2) li {
         align-items: center;
         list-style: none;
         color: white;
-
-
-    }
+}
 
     footer article li {
         display: flex;

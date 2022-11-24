@@ -249,16 +249,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/gridblijmee.jpg" width="375px" alt="top">
     <img src="readme-images/hamburgermenublijmee.jpg" width="375px" alt="top">
-    <img src="readme-images/mobieleversienavblijmee.jpg" width="375px" alt="top">
-     <img src="readme-images/navblijmee.jpg" width="375px" alt="top">
+   
   
   ### Dit ging goed/Heb ik geleerd:
   Ik heb een hoop gemaakt waar ik ook echt trots op ben, het zullen voor expers niet hele ingewikkelde stukken code zijn maar ik had echt een hele tijd niets met html gedaan. In de tussen tijd volg ik een minor waarbij ik ook moest coderen, deze manier van lesgeven heeft echt top gewerkt omdat je hierdoor constant met elkaar ingesprek gaat over elkaars code.
   
   Waar ik nu veel beter in ben geworden is het schrijven van code zonder id's en classes te gebruiken. Er zijn hier veel verschillende opties voor en ik was daar hiervoor totaal niet van op de hoogte. Hoewel ik niet alles uit mijn hoofd ken zijn er niet meer heel veel regels in CSS waar ik van zou schrikken. Op verschillende momenten in de klas heb ik gedacht "hoe kunnen andere nou zo snel op antwoorden komen als deze worden gevraagd" Ik zou nu heel anders in deze lessen zitten!
   
-  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+   <img src="readme-images/mobieleversienavblijmee.jpg" width="375px" alt="top">
+     <img src="readme-images/navblijmee.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -266,7 +265,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Als ik dit vak ook klassiekaal had kunnen meemaken weet ik zeker dat ik veel minder tijd had besteed in het zoeken naar elementen en manieren om deze te gerbuiken. 
   
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+   <img src="readme-images/paginaoptieswillenaanpassen.jpg" width="375px" alt="top">
+    <img src="readme-images/carouselnietblijmee.jpg" width="375px" alt="top">
+     <img src="readme-images/pagina2nietblijmee.jpg" width="375px" alt="top">
 </details>
 
 
@@ -283,11 +284,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1.Dit was een erg handige manier om meer te leren over grid of om te kijken waarom iets niet werkt: 
   Link:https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties 
   
-  2.Net zoals de vorige bron heb ik super veel gehad aan deze pagina: 
+  2.Net zoals de vorige bron heb ik super veel gehad aan deze pagina een groot deel van mijn site bestaat uit een flex structuur: 
   Link:https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
   
   3.Ik had mijn icons eerst toegeveoegd door een google icon link, ik kreeg als advies om deze te veranderen in png of svg afbeeldingen ik was niet helemaal hoe dit moest daar was deze link perfect voor  : 
   Link:https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+  
+  4.product 1 van de gebruikte schoenenlink:https://stockx.com/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found
   
   
 
