@@ -247,11 +247,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/navblijmee.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/gridblijmee.jpg" width="375px" alt="top">
+    <img src="readme-images/hamburgermenublijmee.jpg" width="375px" alt="top">
+    <img src="readme-images/mobieleversienavblijmee.jpg" width="375px" alt="top">
+     <img src="readme-images/navblijmee.jpg" width="375px" alt="top">
   
-  . 
-
-
   ### Dit ging goed/Heb ik geleerd:
   Ik heb een hoop gemaakt waar ik ook echt trots op ben, het zullen voor expers niet hele ingewikkelde stukken code zijn maar ik had echt een hele tijd niets met html gedaan. In de tussen tijd volg ik een minor waarbij ik ook moest coderen, deze manier van lesgeven heeft echt top gewerkt omdat je hierdoor constant met elkaar ingesprek gaat over elkaars code.
   
